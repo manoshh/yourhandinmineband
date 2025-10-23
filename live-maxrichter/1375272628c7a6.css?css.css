@@ -1,0 +1,835 @@
+body .social-links ul, body .widget.social ul { list-style: none; margin: 0; overflow: hidden; padding: 0; }
+body .social-links ul li a, body .widget.social ul li a { display: block; float: left; text-indent: -9999px; }
+body .social-links ul.large li a, body .widget.social ul.large li a { height: 64px; margin: 0 5px 5px 0; width: 64px; }
+body .social-links ul.large.simplebutton li a, body .social-links ul.large.shinycircle li a, body .social-links ul.large.shinybutton li a, body .widget.social ul.large.simplebutton li a, body .widget.social ul.large.shinycircle li a, body .widget.social ul.large.shinybutton li a { height: 66px; margin: 0 5px 5px 0; width: 64px; }
+body .social-links ul.small li a, body .widget.social ul.small li a { height: 32px; margin: 0 5px 5px 0; width: 32px; }
+body .social-links ul.small.simplebutton li a, body .social-links ul.small.shinycircle li a, body .social-links ul.small.shinybutton li a, body .widget.social ul.small.simplebutton li a, body .widget.social ul.small.shinycircle li a, body .widget.social ul.small.shinybutton li a { height: 33px; margin: 0 5px 5px 0; width: 32px; }
+body .social-links ul.colorcircle.large li a, body .widget.social ul.colorcircle.large li a { background: url(../_assets/_sprites/social-icons/large/colorcircle.png) no-repeat 0 0; }
+body .social-links ul.greycircle.large li a, body .widget.social ul.greycircle.large li a { background: url(../_assets/_sprites/social-icons/large/greycircle.png) no-repeat 0 0; }
+body .social-links ul.darkbutton.large li a, body .widget.social ul.darkbutton.large li a { background: url(../_assets/_sprites/social-icons/large/darkbutton.png) no-repeat 0 0; }
+body .social-links ul.monobutton.large li a, body .widget.social ul.monobutton.large li a { background: url(../_assets/_sprites/social-icons/large/monobutton.png) no-repeat 0 0; }
+body .social-links ul.glowbutton.large li a, body .widget.social ul.glowbutton.large li a { background: url(../_assets/_sprites/social-icons/large/glowbutton.png) no-repeat 0 0; }
+body .social-links ul.colorcircle.large li.youtube a, body .social-links ul.greycircle.large li.youtube a, body .social-links ul.darkbutton.large li.youtube a, body .social-links ul.monobutton.large li.youtube a, body .social-links ul.glowbutton.large li.youtube a, body .widget.social ul.colorcircle.large li.youtube a, body .widget.social ul.greycircle.large li.youtube a, body .widget.social ul.darkbutton.large li.youtube a, body .widget.social ul.monobutton.large li.youtube a, body .widget.social ul.glowbutton.large li.youtube a { background-position: 0 0px; }
+body .social-links ul.colorcircle.large li.blogger a, body .social-links ul.greycircle.large li.blogger a, body .social-links ul.darkbutton.large li.blogger a, body .social-links ul.monobutton.large li.blogger a, body .social-links ul.glowbutton.large li.blogger a, body .widget.social ul.colorcircle.large li.blogger a, body .widget.social ul.greycircle.large li.blogger a, body .widget.social ul.darkbutton.large li.blogger a, body .widget.social ul.monobutton.large li.blogger a, body .widget.social ul.glowbutton.large li.blogger a { background-position: 0 -64px; }
+body .social-links ul.colorcircle.large li.dribbble a, body .social-links ul.greycircle.large li.dribbble a, body .social-links ul.darkbutton.large li.dribbble a, body .social-links ul.monobutton.large li.dribbble a, body .social-links ul.glowbutton.large li.dribbble a, body .widget.social ul.colorcircle.large li.dribbble a, body .widget.social ul.greycircle.large li.dribbble a, body .widget.social ul.darkbutton.large li.dribbble a, body .widget.social ul.monobutton.large li.dribbble a, body .widget.social ul.glowbutton.large li.dribbble a { background-position: 0 -128px; }
+body .social-links ul.colorcircle.large li.email a, body .social-links ul.greycircle.large li.email a, body .social-links ul.darkbutton.large li.email a, body .social-links ul.monobutton.large li.email a, body .social-links ul.glowbutton.large li.email a, body .widget.social ul.colorcircle.large li.email a, body .widget.social ul.greycircle.large li.email a, body .widget.social ul.darkbutton.large li.email a, body .widget.social ul.monobutton.large li.email a, body .widget.social ul.glowbutton.large li.email a { background-position: 0 -192px; }
+body .social-links ul.colorcircle.large li.etsy a, body .social-links ul.greycircle.large li.etsy a, body .social-links ul.darkbutton.large li.etsy a, body .social-links ul.monobutton.large li.etsy a, body .social-links ul.glowbutton.large li.etsy a, body .widget.social ul.colorcircle.large li.etsy a, body .widget.social ul.greycircle.large li.etsy a, body .widget.social ul.darkbutton.large li.etsy a, body .widget.social ul.monobutton.large li.etsy a, body .widget.social ul.glowbutton.large li.etsy a { background-position: 0 -256px; }
+body .social-links ul.colorcircle.large li.facebook a, body .social-links ul.greycircle.large li.facebook a, body .social-links ul.darkbutton.large li.facebook a, body .social-links ul.monobutton.large li.facebook a, body .social-links ul.glowbutton.large li.facebook a, body .widget.social ul.colorcircle.large li.facebook a, body .widget.social ul.greycircle.large li.facebook a, body .widget.social ul.darkbutton.large li.facebook a, body .widget.social ul.monobutton.large li.facebook a, body .widget.social ul.glowbutton.large li.facebook a { background-position: 0 -320px; }
+body .social-links ul.colorcircle.large li.flickr a, body .social-links ul.greycircle.large li.flickr a, body .social-links ul.darkbutton.large li.flickr a, body .social-links ul.monobutton.large li.flickr a, body .social-links ul.glowbutton.large li.flickr a, body .widget.social ul.colorcircle.large li.flickr a, body .widget.social ul.greycircle.large li.flickr a, body .widget.social ul.darkbutton.large li.flickr a, body .widget.social ul.monobutton.large li.flickr a, body .widget.social ul.glowbutton.large li.flickr a { background-position: 0 -384px; }
+body .social-links ul.colorcircle.large li.foursquare a, body .social-links ul.greycircle.large li.foursquare a, body .social-links ul.darkbutton.large li.foursquare a, body .social-links ul.monobutton.large li.foursquare a, body .social-links ul.glowbutton.large li.foursquare a, body .widget.social ul.colorcircle.large li.foursquare a, body .widget.social ul.greycircle.large li.foursquare a, body .widget.social ul.darkbutton.large li.foursquare a, body .widget.social ul.monobutton.large li.foursquare a, body .widget.social ul.glowbutton.large li.foursquare a { background-position: 0 -448px; }
+body .social-links ul.colorcircle.large li.github a, body .social-links ul.greycircle.large li.github a, body .social-links ul.darkbutton.large li.github a, body .social-links ul.monobutton.large li.github a, body .social-links ul.glowbutton.large li.github a, body .widget.social ul.colorcircle.large li.github a, body .widget.social ul.greycircle.large li.github a, body .widget.social ul.darkbutton.large li.github a, body .widget.social ul.monobutton.large li.github a, body .widget.social ul.glowbutton.large li.github a { background-position: 0 -512px; }
+body .social-links ul.colorcircle.large li.google a, body .social-links ul.greycircle.large li.google a, body .social-links ul.darkbutton.large li.google a, body .social-links ul.monobutton.large li.google a, body .social-links ul.glowbutton.large li.google a, body .widget.social ul.colorcircle.large li.google a, body .widget.social ul.greycircle.large li.google a, body .widget.social ul.darkbutton.large li.google a, body .widget.social ul.monobutton.large li.google a, body .widget.social ul.glowbutton.large li.google a { background-position: 0 -576px; }
+body .social-links ul.colorcircle.large li.instagram a, body .social-links ul.greycircle.large li.instagram a, body .social-links ul.darkbutton.large li.instagram a, body .social-links ul.monobutton.large li.instagram a, body .social-links ul.glowbutton.large li.instagram a, body .widget.social ul.colorcircle.large li.instagram a, body .widget.social ul.greycircle.large li.instagram a, body .widget.social ul.darkbutton.large li.instagram a, body .widget.social ul.monobutton.large li.instagram a, body .widget.social ul.glowbutton.large li.instagram a { background-position: 0 -640px; }
+body .social-links ul.colorcircle.large li.lastfm a, body .social-links ul.greycircle.large li.lastfm a, body .social-links ul.darkbutton.large li.lastfm a, body .social-links ul.monobutton.large li.lastfm a, body .social-links ul.glowbutton.large li.lastfm a, body .widget.social ul.colorcircle.large li.lastfm a, body .widget.social ul.greycircle.large li.lastfm a, body .widget.social ul.darkbutton.large li.lastfm a, body .widget.social ul.monobutton.large li.lastfm a, body .widget.social ul.glowbutton.large li.lastfm a { background-position: 0 -704px; }
+body .social-links ul.colorcircle.large li.linkedin a, body .social-links ul.greycircle.large li.linkedin a, body .social-links ul.darkbutton.large li.linkedin a, body .social-links ul.monobutton.large li.linkedin a, body .social-links ul.glowbutton.large li.linkedin a, body .widget.social ul.colorcircle.large li.linkedin a, body .widget.social ul.greycircle.large li.linkedin a, body .widget.social ul.darkbutton.large li.linkedin a, body .widget.social ul.monobutton.large li.linkedin a, body .widget.social ul.glowbutton.large li.linkedin a { background-position: 0 -768px; }
+body .social-links ul.colorcircle.large li.myspace a, body .social-links ul.greycircle.large li.myspace a, body .social-links ul.darkbutton.large li.myspace a, body .social-links ul.monobutton.large li.myspace a, body .social-links ul.glowbutton.large li.myspace a, body .widget.social ul.colorcircle.large li.myspace a, body .widget.social ul.greycircle.large li.myspace a, body .widget.social ul.darkbutton.large li.myspace a, body .widget.social ul.monobutton.large li.myspace a, body .widget.social ul.glowbutton.large li.myspace a { background-position: 0 -832px; }
+body .social-links ul.colorcircle.large li.pinterest a, body .social-links ul.greycircle.large li.pinterest a, body .social-links ul.darkbutton.large li.pinterest a, body .social-links ul.monobutton.large li.pinterest a, body .social-links ul.glowbutton.large li.pinterest a, body .widget.social ul.colorcircle.large li.pinterest a, body .widget.social ul.greycircle.large li.pinterest a, body .widget.social ul.darkbutton.large li.pinterest a, body .widget.social ul.monobutton.large li.pinterest a, body .widget.social ul.glowbutton.large li.pinterest a { background-position: 0 -896px; }
+body .social-links ul.colorcircle.large li.rdio a, body .social-links ul.greycircle.large li.rdio a, body .social-links ul.darkbutton.large li.rdio a, body .social-links ul.monobutton.large li.rdio a, body .social-links ul.glowbutton.large li.rdio a, body .widget.social ul.colorcircle.large li.rdio a, body .widget.social ul.greycircle.large li.rdio a, body .widget.social ul.darkbutton.large li.rdio a, body .widget.social ul.monobutton.large li.rdio a, body .widget.social ul.glowbutton.large li.rdio a { background-position: 0 -960px; }
+body .social-links ul.colorcircle.large li.rss a, body .social-links ul.greycircle.large li.rss a, body .social-links ul.darkbutton.large li.rss a, body .social-links ul.monobutton.large li.rss a, body .social-links ul.glowbutton.large li.rss a, body .widget.social ul.colorcircle.large li.rss a, body .widget.social ul.greycircle.large li.rss a, body .widget.social ul.darkbutton.large li.rss a, body .widget.social ul.monobutton.large li.rss a, body .widget.social ul.glowbutton.large li.rss a { background-position: 0 -1024px; }
+body .social-links ul.colorcircle.large li.soundcloud a, body .social-links ul.greycircle.large li.soundcloud a, body .social-links ul.darkbutton.large li.soundcloud a, body .social-links ul.monobutton.large li.soundcloud a, body .social-links ul.glowbutton.large li.soundcloud a, body .widget.social ul.colorcircle.large li.soundcloud a, body .widget.social ul.greycircle.large li.soundcloud a, body .widget.social ul.darkbutton.large li.soundcloud a, body .widget.social ul.monobutton.large li.soundcloud a, body .widget.social ul.glowbutton.large li.soundcloud a { background-position: 0 -1088px; }
+body .social-links ul.colorcircle.large li.spotify a, body .social-links ul.greycircle.large li.spotify a, body .social-links ul.darkbutton.large li.spotify a, body .social-links ul.monobutton.large li.spotify a, body .social-links ul.glowbutton.large li.spotify a, body .widget.social ul.colorcircle.large li.spotify a, body .widget.social ul.greycircle.large li.spotify a, body .widget.social ul.darkbutton.large li.spotify a, body .widget.social ul.monobutton.large li.spotify a, body .widget.social ul.glowbutton.large li.spotify a { background-position: 0 -1152px; }
+body .social-links ul.colorcircle.large li.tumblr a, body .social-links ul.greycircle.large li.tumblr a, body .social-links ul.darkbutton.large li.tumblr a, body .social-links ul.monobutton.large li.tumblr a, body .social-links ul.glowbutton.large li.tumblr a, body .widget.social ul.colorcircle.large li.tumblr a, body .widget.social ul.greycircle.large li.tumblr a, body .widget.social ul.darkbutton.large li.tumblr a, body .widget.social ul.monobutton.large li.tumblr a, body .widget.social ul.glowbutton.large li.tumblr a { background-position: 0 -1216px; }
+body .social-links ul.colorcircle.large li.twitter a, body .social-links ul.greycircle.large li.twitter a, body .social-links ul.darkbutton.large li.twitter a, body .social-links ul.monobutton.large li.twitter a, body .social-links ul.glowbutton.large li.twitter a, body .widget.social ul.colorcircle.large li.twitter a, body .widget.social ul.greycircle.large li.twitter a, body .widget.social ul.darkbutton.large li.twitter a, body .widget.social ul.monobutton.large li.twitter a, body .widget.social ul.glowbutton.large li.twitter a { background-position: 0 -1280px; }
+body .social-links ul.colorcircle.large li.vimeo a, body .social-links ul.greycircle.large li.vimeo a, body .social-links ul.darkbutton.large li.vimeo a, body .social-links ul.monobutton.large li.vimeo a, body .social-links ul.glowbutton.large li.vimeo a, body .widget.social ul.colorcircle.large li.vimeo a, body .widget.social ul.greycircle.large li.vimeo a, body .widget.social ul.darkbutton.large li.vimeo a, body .widget.social ul.monobutton.large li.vimeo a, body .widget.social ul.glowbutton.large li.vimeo a { background-position: 0 -1344px; }
+body .social-links ul.colorcircle.large li.wordpress a, body .social-links ul.greycircle.large li.wordpress a, body .social-links ul.darkbutton.large li.wordpress a, body .social-links ul.monobutton.large li.wordpress a, body .social-links ul.glowbutton.large li.wordpress a, body .widget.social ul.colorcircle.large li.wordpress a, body .widget.social ul.greycircle.large li.wordpress a, body .widget.social ul.darkbutton.large li.wordpress a, body .widget.social ul.monobutton.large li.wordpress a, body .widget.social ul.glowbutton.large li.wordpress a { background-position: 0 -1408px; }
+body .social-links ul.colorcircle.large li.bandcamp a, body .social-links ul.greycircle.large li.bandcamp a, body .social-links ul.darkbutton.large li.bandcamp a, body .social-links ul.monobutton.large li.bandcamp a, body .social-links ul.glowbutton.large li.bandcamp a, body .widget.social ul.colorcircle.large li.bandcamp a, body .widget.social ul.greycircle.large li.bandcamp a, body .widget.social ul.darkbutton.large li.bandcamp a, body .widget.social ul.monobutton.large li.bandcamp a, body .widget.social ul.glowbutton.large li.bandcamp a { background-position: 0 -1472px; }
+body .social-links ul.colorcircle.large li.society6 a, body .social-links ul.greycircle.large li.society6 a, body .social-links ul.darkbutton.large li.society6 a, body .social-links ul.monobutton.large li.society6 a, body .social-links ul.glowbutton.large li.society6 a, body .widget.social ul.colorcircle.large li.society6 a, body .widget.social ul.greycircle.large li.society6 a, body .widget.social ul.darkbutton.large li.society6 a, body .widget.social ul.monobutton.large li.society6 a, body .widget.social ul.glowbutton.large li.society6 a { background-position: 0 -1536px; }
+body .social-links ul.colorcircle.large li.opentable a, body .social-links ul.greycircle.large li.opentable a, body .social-links ul.darkbutton.large li.opentable a, body .social-links ul.monobutton.large li.opentable a, body .social-links ul.glowbutton.large li.opentable a, body .widget.social ul.colorcircle.large li.opentable a, body .widget.social ul.greycircle.large li.opentable a, body .widget.social ul.darkbutton.large li.opentable a, body .widget.social ul.monobutton.large li.opentable a, body .widget.social ul.glowbutton.large li.opentable a { background-position: 0 -1600px; }
+body .social-links ul.colorcircle.large li.imdb a, body .social-links ul.greycircle.large li.imdb a, body .social-links ul.darkbutton.large li.imdb a, body .social-links ul.monobutton.large li.imdb a, body .social-links ul.glowbutton.large li.imdb a, body .widget.social ul.colorcircle.large li.imdb a, body .widget.social ul.greycircle.large li.imdb a, body .widget.social ul.darkbutton.large li.imdb a, body .widget.social ul.monobutton.large li.imdb a, body .widget.social ul.glowbutton.large li.imdb a { background-position: 0 -1664px; }
+body .social-links ul.colorcircle.large li.yelp a, body .social-links ul.greycircle.large li.yelp a, body .social-links ul.darkbutton.large li.yelp a, body .social-links ul.monobutton.large li.yelp a, body .social-links ul.glowbutton.large li.yelp a, body .widget.social ul.colorcircle.large li.yelp a, body .widget.social ul.greycircle.large li.yelp a, body .widget.social ul.darkbutton.large li.yelp a, body .widget.social ul.monobutton.large li.yelp a, body .widget.social ul.glowbutton.large li.yelp a { background-position: 0 -1728px; }
+body .social-links ul.colorcircle.large li.etsy a, body .social-links ul.greycircle.large li.etsy a, body .social-links ul.darkbutton.large li.etsy a, body .social-links ul.monobutton.large li.etsy a, body .social-links ul.glowbutton.large li.etsy a, body .widget.social ul.colorcircle.large li.etsy a, body .widget.social ul.greycircle.large li.etsy a, body .widget.social ul.darkbutton.large li.etsy a, body .widget.social ul.monobutton.large li.etsy a, body .widget.social ul.glowbutton.large li.etsy a { background-position: 0 -1792px; }
+body .social-links ul.colorcircle.small li a, body .widget.social ul.colorcircle.small li a { background: url(../_assets/_sprites/social-icons/small/colorcircle.png) no-repeat 0 0; }
+body .social-links ul.greycircle.small li a, body .widget.social ul.greycircle.small li a { background: url(../_assets/_sprites/social-icons/small/greycircle.png) no-repeat 0 0; }
+body .social-links ul.darkbutton.small li a, body .widget.social ul.darkbutton.small li a { background: url(../_assets/_sprites/social-icons/small/darkbutton.png) no-repeat 0 0; }
+body .social-links ul.monobutton.small li a, body .widget.social ul.monobutton.small li a { background: url(../_assets/_sprites/social-icons/small/monobutton.png) no-repeat 0 0; }
+body .social-links ul.glowbutton.small li a, body .widget.social ul.glowbutton.small li a { background: url(../_assets/_sprites/social-icons/small/glowbutton.png) no-repeat 0 0; }
+body .social-links ul.colorcircle.small li.youtube a, body .social-links ul.greycircle.small li.youtube a, body .social-links ul.darkbutton.small li.youtube a, body .social-links ul.monobutton.small li.youtube a, body .social-links ul.glowbutton.small li.youtube a, body .widget.social ul.colorcircle.small li.youtube a, body .widget.social ul.greycircle.small li.youtube a, body .widget.social ul.darkbutton.small li.youtube a, body .widget.social ul.monobutton.small li.youtube a, body .widget.social ul.glowbutton.small li.youtube a { background-position: 0 0px; }
+body .social-links ul.colorcircle.small li.blogger a, body .social-links ul.greycircle.small li.blogger a, body .social-links ul.darkbutton.small li.blogger a, body .social-links ul.monobutton.small li.blogger a, body .social-links ul.glowbutton.small li.blogger a, body .widget.social ul.colorcircle.small li.blogger a, body .widget.social ul.greycircle.small li.blogger a, body .widget.social ul.darkbutton.small li.blogger a, body .widget.social ul.monobutton.small li.blogger a, body .widget.social ul.glowbutton.small li.blogger a { background-position: 0 -32px; }
+body .social-links ul.colorcircle.small li.dribbble a, body .social-links ul.greycircle.small li.dribbble a, body .social-links ul.darkbutton.small li.dribbble a, body .social-links ul.monobutton.small li.dribbble a, body .social-links ul.glowbutton.small li.dribbble a, body .widget.social ul.colorcircle.small li.dribbble a, body .widget.social ul.greycircle.small li.dribbble a, body .widget.social ul.darkbutton.small li.dribbble a, body .widget.social ul.monobutton.small li.dribbble a, body .widget.social ul.glowbutton.small li.dribbble a { background-position: 0 -64px; }
+body .social-links ul.colorcircle.small li.email a, body .social-links ul.greycircle.small li.email a, body .social-links ul.darkbutton.small li.email a, body .social-links ul.monobutton.small li.email a, body .social-links ul.glowbutton.small li.email a, body .widget.social ul.colorcircle.small li.email a, body .widget.social ul.greycircle.small li.email a, body .widget.social ul.darkbutton.small li.email a, body .widget.social ul.monobutton.small li.email a, body .widget.social ul.glowbutton.small li.email a { background-position: 0 -96px; }
+body .social-links ul.colorcircle.small li.etsy a, body .social-links ul.greycircle.small li.etsy a, body .social-links ul.darkbutton.small li.etsy a, body .social-links ul.monobutton.small li.etsy a, body .social-links ul.glowbutton.small li.etsy a, body .widget.social ul.colorcircle.small li.etsy a, body .widget.social ul.greycircle.small li.etsy a, body .widget.social ul.darkbutton.small li.etsy a, body .widget.social ul.monobutton.small li.etsy a, body .widget.social ul.glowbutton.small li.etsy a { background-position: 0 -128px; }
+body .social-links ul.colorcircle.small li.facebook a, body .social-links ul.greycircle.small li.facebook a, body .social-links ul.darkbutton.small li.facebook a, body .social-links ul.monobutton.small li.facebook a, body .social-links ul.glowbutton.small li.facebook a, body .widget.social ul.colorcircle.small li.facebook a, body .widget.social ul.greycircle.small li.facebook a, body .widget.social ul.darkbutton.small li.facebook a, body .widget.social ul.monobutton.small li.facebook a, body .widget.social ul.glowbutton.small li.facebook a { background-position: 0 -160px; }
+body .social-links ul.colorcircle.small li.flickr a, body .social-links ul.greycircle.small li.flickr a, body .social-links ul.darkbutton.small li.flickr a, body .social-links ul.monobutton.small li.flickr a, body .social-links ul.glowbutton.small li.flickr a, body .widget.social ul.colorcircle.small li.flickr a, body .widget.social ul.greycircle.small li.flickr a, body .widget.social ul.darkbutton.small li.flickr a, body .widget.social ul.monobutton.small li.flickr a, body .widget.social ul.glowbutton.small li.flickr a { background-position: 0 -192px; }
+body .social-links ul.colorcircle.small li.foursquare a, body .social-links ul.greycircle.small li.foursquare a, body .social-links ul.darkbutton.small li.foursquare a, body .social-links ul.monobutton.small li.foursquare a, body .social-links ul.glowbutton.small li.foursquare a, body .widget.social ul.colorcircle.small li.foursquare a, body .widget.social ul.greycircle.small li.foursquare a, body .widget.social ul.darkbutton.small li.foursquare a, body .widget.social ul.monobutton.small li.foursquare a, body .widget.social ul.glowbutton.small li.foursquare a { background-position: 0 -224px; }
+body .social-links ul.colorcircle.small li.github a, body .social-links ul.greycircle.small li.github a, body .social-links ul.darkbutton.small li.github a, body .social-links ul.monobutton.small li.github a, body .social-links ul.glowbutton.small li.github a, body .widget.social ul.colorcircle.small li.github a, body .widget.social ul.greycircle.small li.github a, body .widget.social ul.darkbutton.small li.github a, body .widget.social ul.monobutton.small li.github a, body .widget.social ul.glowbutton.small li.github a { background-position: 0 -256px; }
+body .social-links ul.colorcircle.small li.google a, body .social-links ul.greycircle.small li.google a, body .social-links ul.darkbutton.small li.google a, body .social-links ul.monobutton.small li.google a, body .social-links ul.glowbutton.small li.google a, body .widget.social ul.colorcircle.small li.google a, body .widget.social ul.greycircle.small li.google a, body .widget.social ul.darkbutton.small li.google a, body .widget.social ul.monobutton.small li.google a, body .widget.social ul.glowbutton.small li.google a { background-position: 0 -288px; }
+body .social-links ul.colorcircle.small li.instagram a, body .social-links ul.greycircle.small li.instagram a, body .social-links ul.darkbutton.small li.instagram a, body .social-links ul.monobutton.small li.instagram a, body .social-links ul.glowbutton.small li.instagram a, body .widget.social ul.colorcircle.small li.instagram a, body .widget.social ul.greycircle.small li.instagram a, body .widget.social ul.darkbutton.small li.instagram a, body .widget.social ul.monobutton.small li.instagram a, body .widget.social ul.glowbutton.small li.instagram a { background-position: 0 -320px; }
+body .social-links ul.colorcircle.small li.lastfm a, body .social-links ul.greycircle.small li.lastfm a, body .social-links ul.darkbutton.small li.lastfm a, body .social-links ul.monobutton.small li.lastfm a, body .social-links ul.glowbutton.small li.lastfm a, body .widget.social ul.colorcircle.small li.lastfm a, body .widget.social ul.greycircle.small li.lastfm a, body .widget.social ul.darkbutton.small li.lastfm a, body .widget.social ul.monobutton.small li.lastfm a, body .widget.social ul.glowbutton.small li.lastfm a { background-position: 0 -352px; }
+body .social-links ul.colorcircle.small li.linkedin a, body .social-links ul.greycircle.small li.linkedin a, body .social-links ul.darkbutton.small li.linkedin a, body .social-links ul.monobutton.small li.linkedin a, body .social-links ul.glowbutton.small li.linkedin a, body .widget.social ul.colorcircle.small li.linkedin a, body .widget.social ul.greycircle.small li.linkedin a, body .widget.social ul.darkbutton.small li.linkedin a, body .widget.social ul.monobutton.small li.linkedin a, body .widget.social ul.glowbutton.small li.linkedin a { background-position: 0 -384px; }
+body .social-links ul.colorcircle.small li.myspace a, body .social-links ul.greycircle.small li.myspace a, body .social-links ul.darkbutton.small li.myspace a, body .social-links ul.monobutton.small li.myspace a, body .social-links ul.glowbutton.small li.myspace a, body .widget.social ul.colorcircle.small li.myspace a, body .widget.social ul.greycircle.small li.myspace a, body .widget.social ul.darkbutton.small li.myspace a, body .widget.social ul.monobutton.small li.myspace a, body .widget.social ul.glowbutton.small li.myspace a { background-position: 0 -416px; }
+body .social-links ul.colorcircle.small li.pinterest a, body .social-links ul.greycircle.small li.pinterest a, body .social-links ul.darkbutton.small li.pinterest a, body .social-links ul.monobutton.small li.pinterest a, body .social-links ul.glowbutton.small li.pinterest a, body .widget.social ul.colorcircle.small li.pinterest a, body .widget.social ul.greycircle.small li.pinterest a, body .widget.social ul.darkbutton.small li.pinterest a, body .widget.social ul.monobutton.small li.pinterest a, body .widget.social ul.glowbutton.small li.pinterest a { background-position: 0 -448px; }
+body .social-links ul.colorcircle.small li.rdio a, body .social-links ul.greycircle.small li.rdio a, body .social-links ul.darkbutton.small li.rdio a, body .social-links ul.monobutton.small li.rdio a, body .social-links ul.glowbutton.small li.rdio a, body .widget.social ul.colorcircle.small li.rdio a, body .widget.social ul.greycircle.small li.rdio a, body .widget.social ul.darkbutton.small li.rdio a, body .widget.social ul.monobutton.small li.rdio a, body .widget.social ul.glowbutton.small li.rdio a { background-position: 0 -480px; }
+body .social-links ul.colorcircle.small li.rss a, body .social-links ul.greycircle.small li.rss a, body .social-links ul.darkbutton.small li.rss a, body .social-links ul.monobutton.small li.rss a, body .social-links ul.glowbutton.small li.rss a, body .widget.social ul.colorcircle.small li.rss a, body .widget.social ul.greycircle.small li.rss a, body .widget.social ul.darkbutton.small li.rss a, body .widget.social ul.monobutton.small li.rss a, body .widget.social ul.glowbutton.small li.rss a { background-position: 0 -512px; }
+body .social-links ul.colorcircle.small li.soundcloud a, body .social-links ul.greycircle.small li.soundcloud a, body .social-links ul.darkbutton.small li.soundcloud a, body .social-links ul.monobutton.small li.soundcloud a, body .social-links ul.glowbutton.small li.soundcloud a, body .widget.social ul.colorcircle.small li.soundcloud a, body .widget.social ul.greycircle.small li.soundcloud a, body .widget.social ul.darkbutton.small li.soundcloud a, body .widget.social ul.monobutton.small li.soundcloud a, body .widget.social ul.glowbutton.small li.soundcloud a { background-position: 0 -544px; }
+body .social-links ul.colorcircle.small li.spotify a, body .social-links ul.greycircle.small li.spotify a, body .social-links ul.darkbutton.small li.spotify a, body .social-links ul.monobutton.small li.spotify a, body .social-links ul.glowbutton.small li.spotify a, body .widget.social ul.colorcircle.small li.spotify a, body .widget.social ul.greycircle.small li.spotify a, body .widget.social ul.darkbutton.small li.spotify a, body .widget.social ul.monobutton.small li.spotify a, body .widget.social ul.glowbutton.small li.spotify a { background-position: 0 -576px; }
+body .social-links ul.colorcircle.small li.tumblr a, body .social-links ul.greycircle.small li.tumblr a, body .social-links ul.darkbutton.small li.tumblr a, body .social-links ul.monobutton.small li.tumblr a, body .social-links ul.glowbutton.small li.tumblr a, body .widget.social ul.colorcircle.small li.tumblr a, body .widget.social ul.greycircle.small li.tumblr a, body .widget.social ul.darkbutton.small li.tumblr a, body .widget.social ul.monobutton.small li.tumblr a, body .widget.social ul.glowbutton.small li.tumblr a { background-position: 0 -608px; }
+body .social-links ul.colorcircle.small li.twitter a, body .social-links ul.greycircle.small li.twitter a, body .social-links ul.darkbutton.small li.twitter a, body .social-links ul.monobutton.small li.twitter a, body .social-links ul.glowbutton.small li.twitter a, body .widget.social ul.colorcircle.small li.twitter a, body .widget.social ul.greycircle.small li.twitter a, body .widget.social ul.darkbutton.small li.twitter a, body .widget.social ul.monobutton.small li.twitter a, body .widget.social ul.glowbutton.small li.twitter a { background-position: 0 -640px; }
+body .social-links ul.colorcircle.small li.vimeo a, body .social-links ul.greycircle.small li.vimeo a, body .social-links ul.darkbutton.small li.vimeo a, body .social-links ul.monobutton.small li.vimeo a, body .social-links ul.glowbutton.small li.vimeo a, body .widget.social ul.colorcircle.small li.vimeo a, body .widget.social ul.greycircle.small li.vimeo a, body .widget.social ul.darkbutton.small li.vimeo a, body .widget.social ul.monobutton.small li.vimeo a, body .widget.social ul.glowbutton.small li.vimeo a { background-position: 0 -672px; }
+body .social-links ul.colorcircle.small li.wordpress a, body .social-links ul.greycircle.small li.wordpress a, body .social-links ul.darkbutton.small li.wordpress a, body .social-links ul.monobutton.small li.wordpress a, body .social-links ul.glowbutton.small li.wordpress a, body .widget.social ul.colorcircle.small li.wordpress a, body .widget.social ul.greycircle.small li.wordpress a, body .widget.social ul.darkbutton.small li.wordpress a, body .widget.social ul.monobutton.small li.wordpress a, body .widget.social ul.glowbutton.small li.wordpress a { background-position: 0 -704px; }
+body .social-links ul.colorcircle.small li.bandcamp a, body .social-links ul.greycircle.small li.bandcamp a, body .social-links ul.darkbutton.small li.bandcamp a, body .social-links ul.monobutton.small li.bandcamp a, body .social-links ul.glowbutton.small li.bandcamp a, body .widget.social ul.colorcircle.small li.bandcamp a, body .widget.social ul.greycircle.small li.bandcamp a, body .widget.social ul.darkbutton.small li.bandcamp a, body .widget.social ul.monobutton.small li.bandcamp a, body .widget.social ul.glowbutton.small li.bandcamp a { background-position: 0 -736px; }
+body .social-links ul.colorcircle.small li.society6 a, body .social-links ul.greycircle.small li.society6 a, body .social-links ul.darkbutton.small li.society6 a, body .social-links ul.monobutton.small li.society6 a, body .social-links ul.glowbutton.small li.society6 a, body .widget.social ul.colorcircle.small li.society6 a, body .widget.social ul.greycircle.small li.society6 a, body .widget.social ul.darkbutton.small li.society6 a, body .widget.social ul.monobutton.small li.society6 a, body .widget.social ul.glowbutton.small li.society6 a { background-position: 0 -768px; }
+body .social-links ul.colorcircle.small li.opentable a, body .social-links ul.greycircle.small li.opentable a, body .social-links ul.darkbutton.small li.opentable a, body .social-links ul.monobutton.small li.opentable a, body .social-links ul.glowbutton.small li.opentable a, body .widget.social ul.colorcircle.small li.opentable a, body .widget.social ul.greycircle.small li.opentable a, body .widget.social ul.darkbutton.small li.opentable a, body .widget.social ul.monobutton.small li.opentable a, body .widget.social ul.glowbutton.small li.opentable a { background-position: 0 -800px; }
+body .social-links ul.colorcircle.small li.imdb a, body .social-links ul.greycircle.small li.imdb a, body .social-links ul.darkbutton.small li.imdb a, body .social-links ul.monobutton.small li.imdb a, body .social-links ul.glowbutton.small li.imdb a, body .widget.social ul.colorcircle.small li.imdb a, body .widget.social ul.greycircle.small li.imdb a, body .widget.social ul.darkbutton.small li.imdb a, body .widget.social ul.monobutton.small li.imdb a, body .widget.social ul.glowbutton.small li.imdb a { background-position: 0 -832px; }
+body .social-links ul.colorcircle.small li.yelp a, body .social-links ul.greycircle.small li.yelp a, body .social-links ul.darkbutton.small li.yelp a, body .social-links ul.monobutton.small li.yelp a, body .social-links ul.glowbutton.small li.yelp a, body .widget.social ul.colorcircle.small li.yelp a, body .widget.social ul.greycircle.small li.yelp a, body .widget.social ul.darkbutton.small li.yelp a, body .widget.social ul.monobutton.small li.yelp a, body .widget.social ul.glowbutton.small li.yelp a { background-position: 0 -864px; }
+body .social-links ul.colorcircle.small li.etsy a, body .social-links ul.greycircle.small li.etsy a, body .social-links ul.darkbutton.small li.etsy a, body .social-links ul.monobutton.small li.etsy a, body .social-links ul.glowbutton.small li.etsy a, body .widget.social ul.colorcircle.small li.etsy a, body .widget.social ul.greycircle.small li.etsy a, body .widget.social ul.darkbutton.small li.etsy a, body .widget.social ul.monobutton.small li.etsy a, body .widget.social ul.glowbutton.small li.etsy a { background-position: 0 -896px; }
+body .social-links ul.shinycircle.large li a, body .widget.social ul.shinycircle.large li a { background: url(../_assets/_sprites/social-icons/large/shinycircle.png) no-repeat 0 0; }
+body .social-links ul.simplebutton.large li a, body .widget.social ul.simplebutton.large li a { background: url(../_assets/_sprites/social-icons/large/simplebutton.png) no-repeat 0 0; }
+body .social-links ul.shinybutton.large li a, body .widget.social ul.shinybutton.large li a { background: url(../_assets/_sprites/social-icons/large/shinybutton.png) no-repeat 0 0; }
+body .social-links ul.shinycircle.large li.youtube a, body .social-links ul.simplebutton.large li.youtube a, body .social-links ul.shinybutton.large li.youtube a, body .widget.social ul.shinycircle.large li.youtube a, body .widget.social ul.simplebutton.large li.youtube a, body .widget.social ul.shinybutton.large li.youtube a { background-position: 0 0px; }
+body .social-links ul.shinycircle.large li.blogger a, body .social-links ul.simplebutton.large li.blogger a, body .social-links ul.shinybutton.large li.blogger a, body .widget.social ul.shinycircle.large li.blogger a, body .widget.social ul.simplebutton.large li.blogger a, body .widget.social ul.shinybutton.large li.blogger a { background-position: 0 -66px; }
+body .social-links ul.shinycircle.large li.dribbble a, body .social-links ul.simplebutton.large li.dribbble a, body .social-links ul.shinybutton.large li.dribbble a, body .widget.social ul.shinycircle.large li.dribbble a, body .widget.social ul.simplebutton.large li.dribbble a, body .widget.social ul.shinybutton.large li.dribbble a { background-position: 0 -132px; }
+body .social-links ul.shinycircle.large li.email a, body .social-links ul.simplebutton.large li.email a, body .social-links ul.shinybutton.large li.email a, body .widget.social ul.shinycircle.large li.email a, body .widget.social ul.simplebutton.large li.email a, body .widget.social ul.shinybutton.large li.email a { background-position: 0 -198px; }
+body .social-links ul.shinycircle.large li.etsy a, body .social-links ul.simplebutton.large li.etsy a, body .social-links ul.shinybutton.large li.etsy a, body .widget.social ul.shinycircle.large li.etsy a, body .widget.social ul.simplebutton.large li.etsy a, body .widget.social ul.shinybutton.large li.etsy a { background-position: 0 -264px; }
+body .social-links ul.shinycircle.large li.facebook a, body .social-links ul.simplebutton.large li.facebook a, body .social-links ul.shinybutton.large li.facebook a, body .widget.social ul.shinycircle.large li.facebook a, body .widget.social ul.simplebutton.large li.facebook a, body .widget.social ul.shinybutton.large li.facebook a { background-position: 0 -330px; }
+body .social-links ul.shinycircle.large li.flickr a, body .social-links ul.simplebutton.large li.flickr a, body .social-links ul.shinybutton.large li.flickr a, body .widget.social ul.shinycircle.large li.flickr a, body .widget.social ul.simplebutton.large li.flickr a, body .widget.social ul.shinybutton.large li.flickr a { background-position: 0 -396px; }
+body .social-links ul.shinycircle.large li.foursquare a, body .social-links ul.simplebutton.large li.foursquare a, body .social-links ul.shinybutton.large li.foursquare a, body .widget.social ul.shinycircle.large li.foursquare a, body .widget.social ul.simplebutton.large li.foursquare a, body .widget.social ul.shinybutton.large li.foursquare a { background-position: 0 -462px; }
+body .social-links ul.shinycircle.large li.github a, body .social-links ul.simplebutton.large li.github a, body .social-links ul.shinybutton.large li.github a, body .widget.social ul.shinycircle.large li.github a, body .widget.social ul.simplebutton.large li.github a, body .widget.social ul.shinybutton.large li.github a { background-position: 0 -528px; }
+body .social-links ul.shinycircle.large li.google a, body .social-links ul.simplebutton.large li.google a, body .social-links ul.shinybutton.large li.google a, body .widget.social ul.shinycircle.large li.google a, body .widget.social ul.simplebutton.large li.google a, body .widget.social ul.shinybutton.large li.google a { background-position: 0 -594px; }
+body .social-links ul.shinycircle.large li.instagram a, body .social-links ul.simplebutton.large li.instagram a, body .social-links ul.shinybutton.large li.instagram a, body .widget.social ul.shinycircle.large li.instagram a, body .widget.social ul.simplebutton.large li.instagram a, body .widget.social ul.shinybutton.large li.instagram a { background-position: 0 -660px; }
+body .social-links ul.shinycircle.large li.lastfm a, body .social-links ul.simplebutton.large li.lastfm a, body .social-links ul.shinybutton.large li.lastfm a, body .widget.social ul.shinycircle.large li.lastfm a, body .widget.social ul.simplebutton.large li.lastfm a, body .widget.social ul.shinybutton.large li.lastfm a { background-position: 0 -726px; }
+body .social-links ul.shinycircle.large li.linkedin a, body .social-links ul.simplebutton.large li.linkedin a, body .social-links ul.shinybutton.large li.linkedin a, body .widget.social ul.shinycircle.large li.linkedin a, body .widget.social ul.simplebutton.large li.linkedin a, body .widget.social ul.shinybutton.large li.linkedin a { background-position: 0 -792px; }
+body .social-links ul.shinycircle.large li.myspace a, body .social-links ul.simplebutton.large li.myspace a, body .social-links ul.shinybutton.large li.myspace a, body .widget.social ul.shinycircle.large li.myspace a, body .widget.social ul.simplebutton.large li.myspace a, body .widget.social ul.shinybutton.large li.myspace a { background-position: 0 -858px; }
+body .social-links ul.shinycircle.large li.pinterest a, body .social-links ul.simplebutton.large li.pinterest a, body .social-links ul.shinybutton.large li.pinterest a, body .widget.social ul.shinycircle.large li.pinterest a, body .widget.social ul.simplebutton.large li.pinterest a, body .widget.social ul.shinybutton.large li.pinterest a { background-position: 0 -924px; }
+body .social-links ul.shinycircle.large li.rdio a, body .social-links ul.simplebutton.large li.rdio a, body .social-links ul.shinybutton.large li.rdio a, body .widget.social ul.shinycircle.large li.rdio a, body .widget.social ul.simplebutton.large li.rdio a, body .widget.social ul.shinybutton.large li.rdio a { background-position: 0 -990px; }
+body .social-links ul.shinycircle.large li.rss a, body .social-links ul.simplebutton.large li.rss a, body .social-links ul.shinybutton.large li.rss a, body .widget.social ul.shinycircle.large li.rss a, body .widget.social ul.simplebutton.large li.rss a, body .widget.social ul.shinybutton.large li.rss a { background-position: 0 -1056px; }
+body .social-links ul.shinycircle.large li.soundcloud a, body .social-links ul.simplebutton.large li.soundcloud a, body .social-links ul.shinybutton.large li.soundcloud a, body .widget.social ul.shinycircle.large li.soundcloud a, body .widget.social ul.simplebutton.large li.soundcloud a, body .widget.social ul.shinybutton.large li.soundcloud a { background-position: 0 -1122px; }
+body .social-links ul.shinycircle.large li.spotify a, body .social-links ul.simplebutton.large li.spotify a, body .social-links ul.shinybutton.large li.spotify a, body .widget.social ul.shinycircle.large li.spotify a, body .widget.social ul.simplebutton.large li.spotify a, body .widget.social ul.shinybutton.large li.spotify a { background-position: 0 -1188px; }
+body .social-links ul.shinycircle.large li.tumblr a, body .social-links ul.simplebutton.large li.tumblr a, body .social-links ul.shinybutton.large li.tumblr a, body .widget.social ul.shinycircle.large li.tumblr a, body .widget.social ul.simplebutton.large li.tumblr a, body .widget.social ul.shinybutton.large li.tumblr a { background-position: 0 -1254px; }
+body .social-links ul.shinycircle.large li.twitter a, body .social-links ul.simplebutton.large li.twitter a, body .social-links ul.shinybutton.large li.twitter a, body .widget.social ul.shinycircle.large li.twitter a, body .widget.social ul.simplebutton.large li.twitter a, body .widget.social ul.shinybutton.large li.twitter a { background-position: 0 -1320px; }
+body .social-links ul.shinycircle.large li.vimeo a, body .social-links ul.simplebutton.large li.vimeo a, body .social-links ul.shinybutton.large li.vimeo a, body .widget.social ul.shinycircle.large li.vimeo a, body .widget.social ul.simplebutton.large li.vimeo a, body .widget.social ul.shinybutton.large li.vimeo a { background-position: 0 -1386px; }
+body .social-links ul.shinycircle.large li.wordpress a, body .social-links ul.simplebutton.large li.wordpress a, body .social-links ul.shinybutton.large li.wordpress a, body .widget.social ul.shinycircle.large li.wordpress a, body .widget.social ul.simplebutton.large li.wordpress a, body .widget.social ul.shinybutton.large li.wordpress a { background-position: 0 -1452px; }
+body .social-links ul.shinycircle.large li.bandcamp a, body .social-links ul.simplebutton.large li.bandcamp a, body .social-links ul.shinybutton.large li.bandcamp a, body .widget.social ul.shinycircle.large li.bandcamp a, body .widget.social ul.simplebutton.large li.bandcamp a, body .widget.social ul.shinybutton.large li.bandcamp a { background-position: 0 -1518px; }
+body .social-links ul.shinycircle.large li.society6 a, body .social-links ul.simplebutton.large li.society6 a, body .social-links ul.shinybutton.large li.society6 a, body .widget.social ul.shinycircle.large li.society6 a, body .widget.social ul.simplebutton.large li.society6 a, body .widget.social ul.shinybutton.large li.society6 a { background-position: 0 -1584px; }
+body .social-links ul.shinycircle.large li.opentable a, body .social-links ul.simplebutton.large li.opentable a, body .social-links ul.shinybutton.large li.opentable a, body .widget.social ul.shinycircle.large li.opentable a, body .widget.social ul.simplebutton.large li.opentable a, body .widget.social ul.shinybutton.large li.opentable a { background-position: 0 -1650px; }
+body .social-links ul.shinycircle.large li.imdb a, body .social-links ul.simplebutton.large li.imdb a, body .social-links ul.shinybutton.large li.imdb a, body .widget.social ul.shinycircle.large li.imdb a, body .widget.social ul.simplebutton.large li.imdb a, body .widget.social ul.shinybutton.large li.imdb a { background-position: 0 -1716px; }
+body .social-links ul.shinycircle.large li.yelp a, body .social-links ul.simplebutton.large li.yelp a, body .social-links ul.shinybutton.large li.yelp a, body .widget.social ul.shinycircle.large li.yelp a, body .widget.social ul.simplebutton.large li.yelp a, body .widget.social ul.shinybutton.large li.yelp a { background-position: 0 -1782px; }
+body .social-links ul.shinycircle.large li.etsy a, body .social-links ul.simplebutton.large li.etsy a, body .social-links ul.shinybutton.large li.etsy a, body .widget.social ul.shinycircle.large li.etsy a, body .widget.social ul.simplebutton.large li.etsy a, body .widget.social ul.shinybutton.large li.etsy a { background-position: 0 -1848px; }
+body .social-links ul.shinycircle.small li a, body .widget.social ul.shinycircle.small li a { background: url(../_assets/_sprites/social-icons/small/shinycircle.png) no-repeat 0 0; }
+body .social-links ul.simplebutton.small li a, body .widget.social ul.simplebutton.small li a { background: url(../_assets/_sprites/social-icons/small/simplebutton.png) no-repeat 0 0; }
+body .social-links ul.shinybutton.small li a, body .widget.social ul.shinybutton.small li a { background: url(../_assets/_sprites/social-icons/small/shinybutton.png) no-repeat 0 0; }
+body .social-links ul.shinycircle.small li.youtube a, body .social-links ul.simplebutton.small li.youtube a, body .social-links ul.shinybutton.small li.youtube a, body .widget.social ul.shinycircle.small li.youtube a, body .widget.social ul.simplebutton.small li.youtube a, body .widget.social ul.shinybutton.small li.youtube a { background-position: 0 0px; }
+body .social-links ul.shinycircle.small li.blogger a, body .social-links ul.simplebutton.small li.blogger a, body .social-links ul.shinybutton.small li.blogger a, body .widget.social ul.shinycircle.small li.blogger a, body .widget.social ul.simplebutton.small li.blogger a, body .widget.social ul.shinybutton.small li.blogger a { background-position: 0 -33px; }
+body .social-links ul.shinycircle.small li.dribbble a, body .social-links ul.simplebutton.small li.dribbble a, body .social-links ul.shinybutton.small li.dribbble a, body .widget.social ul.shinycircle.small li.dribbble a, body .widget.social ul.simplebutton.small li.dribbble a, body .widget.social ul.shinybutton.small li.dribbble a { background-position: 0 -66px; }
+body .social-links ul.shinycircle.small li.email a, body .social-links ul.simplebutton.small li.email a, body .social-links ul.shinybutton.small li.email a, body .widget.social ul.shinycircle.small li.email a, body .widget.social ul.simplebutton.small li.email a, body .widget.social ul.shinybutton.small li.email a { background-position: 0 -99px; }
+body .social-links ul.shinycircle.small li.etsy a, body .social-links ul.simplebutton.small li.etsy a, body .social-links ul.shinybutton.small li.etsy a, body .widget.social ul.shinycircle.small li.etsy a, body .widget.social ul.simplebutton.small li.etsy a, body .widget.social ul.shinybutton.small li.etsy a { background-position: 0 -132px; }
+body .social-links ul.shinycircle.small li.facebook a, body .social-links ul.simplebutton.small li.facebook a, body .social-links ul.shinybutton.small li.facebook a, body .widget.social ul.shinycircle.small li.facebook a, body .widget.social ul.simplebutton.small li.facebook a, body .widget.social ul.shinybutton.small li.facebook a { background-position: 0 -165px; }
+body .social-links ul.shinycircle.small li.flickr a, body .social-links ul.simplebutton.small li.flickr a, body .social-links ul.shinybutton.small li.flickr a, body .widget.social ul.shinycircle.small li.flickr a, body .widget.social ul.simplebutton.small li.flickr a, body .widget.social ul.shinybutton.small li.flickr a { background-position: 0 -198px; }
+body .social-links ul.shinycircle.small li.foursquare a, body .social-links ul.simplebutton.small li.foursquare a, body .social-links ul.shinybutton.small li.foursquare a, body .widget.social ul.shinycircle.small li.foursquare a, body .widget.social ul.simplebutton.small li.foursquare a, body .widget.social ul.shinybutton.small li.foursquare a { background-position: 0 -231px; }
+body .social-links ul.shinycircle.small li.github a, body .social-links ul.simplebutton.small li.github a, body .social-links ul.shinybutton.small li.github a, body .widget.social ul.shinycircle.small li.github a, body .widget.social ul.simplebutton.small li.github a, body .widget.social ul.shinybutton.small li.github a { background-position: 0 -264px; }
+body .social-links ul.shinycircle.small li.google a, body .social-links ul.simplebutton.small li.google a, body .social-links ul.shinybutton.small li.google a, body .widget.social ul.shinycircle.small li.google a, body .widget.social ul.simplebutton.small li.google a, body .widget.social ul.shinybutton.small li.google a { background-position: 0 -297px; }
+body .social-links ul.shinycircle.small li.instagram a, body .social-links ul.simplebutton.small li.instagram a, body .social-links ul.shinybutton.small li.instagram a, body .widget.social ul.shinycircle.small li.instagram a, body .widget.social ul.simplebutton.small li.instagram a, body .widget.social ul.shinybutton.small li.instagram a { background-position: 0 -330px; }
+body .social-links ul.shinycircle.small li.lastfm a, body .social-links ul.simplebutton.small li.lastfm a, body .social-links ul.shinybutton.small li.lastfm a, body .widget.social ul.shinycircle.small li.lastfm a, body .widget.social ul.simplebutton.small li.lastfm a, body .widget.social ul.shinybutton.small li.lastfm a { background-position: 0 -363px; }
+body .social-links ul.shinycircle.small li.linkedin a, body .social-links ul.simplebutton.small li.linkedin a, body .social-links ul.shinybutton.small li.linkedin a, body .widget.social ul.shinycircle.small li.linkedin a, body .widget.social ul.simplebutton.small li.linkedin a, body .widget.social ul.shinybutton.small li.linkedin a { background-position: 0 -396px; }
+body .social-links ul.shinycircle.small li.myspace a, body .social-links ul.simplebutton.small li.myspace a, body .social-links ul.shinybutton.small li.myspace a, body .widget.social ul.shinycircle.small li.myspace a, body .widget.social ul.simplebutton.small li.myspace a, body .widget.social ul.shinybutton.small li.myspace a { background-position: 0 -429px; }
+body .social-links ul.shinycircle.small li.pinterest a, body .social-links ul.simplebutton.small li.pinterest a, body .social-links ul.shinybutton.small li.pinterest a, body .widget.social ul.shinycircle.small li.pinterest a, body .widget.social ul.simplebutton.small li.pinterest a, body .widget.social ul.shinybutton.small li.pinterest a { background-position: 0 -462px; }
+body .social-links ul.shinycircle.small li.rdio a, body .social-links ul.simplebutton.small li.rdio a, body .social-links ul.shinybutton.small li.rdio a, body .widget.social ul.shinycircle.small li.rdio a, body .widget.social ul.simplebutton.small li.rdio a, body .widget.social ul.shinybutton.small li.rdio a { background-position: 0 -495px; }
+body .social-links ul.shinycircle.small li.rss a, body .social-links ul.simplebutton.small li.rss a, body .social-links ul.shinybutton.small li.rss a, body .widget.social ul.shinycircle.small li.rss a, body .widget.social ul.simplebutton.small li.rss a, body .widget.social ul.shinybutton.small li.rss a { background-position: 0 -528px; }
+body .social-links ul.shinycircle.small li.soundcloud a, body .social-links ul.simplebutton.small li.soundcloud a, body .social-links ul.shinybutton.small li.soundcloud a, body .widget.social ul.shinycircle.small li.soundcloud a, body .widget.social ul.simplebutton.small li.soundcloud a, body .widget.social ul.shinybutton.small li.soundcloud a { background-position: 0 -561px; }
+body .social-links ul.shinycircle.small li.spotify a, body .social-links ul.simplebutton.small li.spotify a, body .social-links ul.shinybutton.small li.spotify a, body .widget.social ul.shinycircle.small li.spotify a, body .widget.social ul.simplebutton.small li.spotify a, body .widget.social ul.shinybutton.small li.spotify a { background-position: 0 -594px; }
+body .social-links ul.shinycircle.small li.tumblr a, body .social-links ul.simplebutton.small li.tumblr a, body .social-links ul.shinybutton.small li.tumblr a, body .widget.social ul.shinycircle.small li.tumblr a, body .widget.social ul.simplebutton.small li.tumblr a, body .widget.social ul.shinybutton.small li.tumblr a { background-position: 0 -627px; }
+body .social-links ul.shinycircle.small li.twitter a, body .social-links ul.simplebutton.small li.twitter a, body .social-links ul.shinybutton.small li.twitter a, body .widget.social ul.shinycircle.small li.twitter a, body .widget.social ul.simplebutton.small li.twitter a, body .widget.social ul.shinybutton.small li.twitter a { background-position: 0 -660px; }
+body .social-links ul.shinycircle.small li.vimeo a, body .social-links ul.simplebutton.small li.vimeo a, body .social-links ul.shinybutton.small li.vimeo a, body .widget.social ul.shinycircle.small li.vimeo a, body .widget.social ul.simplebutton.small li.vimeo a, body .widget.social ul.shinybutton.small li.vimeo a { background-position: 0 -693px; }
+body .social-links ul.shinycircle.small li.wordpress a, body .social-links ul.simplebutton.small li.wordpress a, body .social-links ul.shinybutton.small li.wordpress a, body .widget.social ul.shinycircle.small li.wordpress a, body .widget.social ul.simplebutton.small li.wordpress a, body .widget.social ul.shinybutton.small li.wordpress a { background-position: 0 -726px; }
+body .social-links ul.shinycircle.small li.bandcamp a, body .social-links ul.simplebutton.small li.bandcamp a, body .social-links ul.shinybutton.small li.bandcamp a, body .widget.social ul.shinycircle.small li.bandcamp a, body .widget.social ul.simplebutton.small li.bandcamp a, body .widget.social ul.shinybutton.small li.bandcamp a { background-position: 0 -759px; }
+body .social-links ul.shinycircle.small li.society6 a, body .social-links ul.simplebutton.small li.society6 a, body .social-links ul.shinybutton.small li.society6 a, body .widget.social ul.shinycircle.small li.society6 a, body .widget.social ul.simplebutton.small li.society6 a, body .widget.social ul.shinybutton.small li.society6 a { background-position: 0 -792px; }
+body .social-links ul.shinycircle.small li.opentable a, body .social-links ul.simplebutton.small li.opentable a, body .social-links ul.shinybutton.small li.opentable a, body .widget.social ul.shinycircle.small li.opentable a, body .widget.social ul.simplebutton.small li.opentable a, body .widget.social ul.shinybutton.small li.opentable a { background-position: 0 -825px; }
+body .social-links ul.shinycircle.small li.imdb a, body .social-links ul.simplebutton.small li.imdb a, body .social-links ul.shinybutton.small li.imdb a, body .widget.social ul.shinycircle.small li.imdb a, body .widget.social ul.simplebutton.small li.imdb a, body .widget.social ul.shinybutton.small li.imdb a { background-position: 0 -858px; }
+body .social-links ul.shinycircle.small li.yelp a, body .social-links ul.simplebutton.small li.yelp a, body .social-links ul.shinybutton.small li.yelp a, body .widget.social ul.shinycircle.small li.yelp a, body .widget.social ul.simplebutton.small li.yelp a, body .widget.social ul.shinybutton.small li.yelp a { background-position: 0 -891px; }
+body .social-links ul.shinycircle.small li.etsy a, body .social-links ul.simplebutton.small li.etsy a, body .social-links ul.shinybutton.small li.etsy a, body .widget.social ul.shinycircle.small li.etsy a, body .widget.social ul.simplebutton.small li.etsy a, body .widget.social ul.shinybutton.small li.etsy a { background-position: 0 -924px; }
+@media (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min-device-pixel-ratio: 1.5) { body .social-links ul.colorcircle.large li a, body .widget.social ul.colorcircle.large li a { background: url(../_assets/_sprites/social-icons/large/colorcircle-2x.png) no-repeat 0 0; background-size: 64px 1856px; }
+  body .social-links ul.colorcircle.small li a, body .widget.social ul.colorcircle.small li a { background: url(../_assets/_sprites/social-icons/small/colorcircle-2x.png) no-repeat 0 0; background-size: 32px 928px; }
+  body .social-links ul.greycircle.large li a, body .widget.social ul.greycircle.large li a { background: url(../_assets/_sprites/social-icons/large/greycircle-2x.png) no-repeat 0 0; background-size: 64px 1856px; }
+  body .social-links ul.greycircle.small li a, body .widget.social ul.greycircle.small li a { background: url(../_assets/_sprites/social-icons/small/greycircle-2x.png) no-repeat 0 0; background-size: 32px 928px; }
+  body .social-links ul.shinycircle.large li a, body .widget.social ul.shinycircle.large li a { background: url(../_assets/_sprites/social-icons/large/shinycircle-2x.png) no-repeat 0 0; background-size: 64px 1914px; }
+  body .social-links ul.shinycircle.small li a, body .widget.social ul.shinycircle.small li a { background: url(../_assets/_sprites/social-icons/small/shinycircle-2x.png) no-repeat 0 0; background-size: 32px 957px; }
+  body .social-links ul.darkbutton.large li a, body .widget.social ul.darkbutton.large li a { background: url(../_assets/_sprites/social-icons/large/darkbutton-2x.png) no-repeat 0 0; background-size: 64px 1856px; }
+  body .social-links ul.darkbutton.small li a, body .widget.social ul.darkbutton.small li a { background: url(../_assets/_sprites/social-icons/small/darkbutton-2x.png) no-repeat 0 0; background-size: 32px 928px; }
+  body .social-links ul.monobutton.large li a, body .widget.social ul.monobutton.large li a { background: url(../_assets/_sprites/social-icons/large/monobutton-2x.png) no-repeat 0 0; background-size: 64px 1856px; }
+  body .social-links ul.monobutton.small li a, body .widget.social ul.monobutton.small li a { background: url(../_assets/_sprites/social-icons/small/monobutton-2x.png) no-repeat 0 0; background-size: 32px 928px; }
+  body .social-links ul.simplebutton.large li a, body .widget.social ul.simplebutton.large li a { background: url(../_assets/_sprites/social-icons/large/simplebutton-2x.png) no-repeat 0 0; background-size: 64px 1914px; }
+  body .social-links ul.simplebutton.small li a, body .widget.social ul.simplebutton.small li a { background: url(../_assets/_sprites/social-icons/small/simplebutton-2x.png) no-repeat 0 0; background-size: 32px 957px; }
+  body .social-links ul.glowbutton.large li a, body .widget.social ul.glowbutton.large li a { background: url(../_assets/_sprites/social-icons/large/glowbutton-2x.png) no-repeat 0 0; background-size: 64px 1856px; }
+  body .social-links ul.glowbutton.small li a, body .widget.social ul.glowbutton.small li a { background: url(../_assets/_sprites/social-icons/small/glowbutton-2x.png) no-repeat 0 0; background-size: 32px 928px; }
+  body .social-links ul.shinybutton.large li a, body .widget.social ul.shinybutton.large li a { background: url(../_assets/_sprites/social-icons/large/shinybutton-2x.png) no-repeat 0 0; background-size: 64px 1914px; }
+  body .social-links ul.shinybutton.small li a, body .widget.social ul.shinybutton.small li a { background: url(../_assets/_sprites/social-icons/small/shinybutton-2x.png) no-repeat 0 0; background-size: 32px 957px; } }
+
+/*
+------------------------------
+GRACE
+------------------------------
+by Joshua Lane
+blissfullyaware.com
+------------------------------
+																											  
+*/
+/* ---------- GLOBAL STYLING RULES & RESETS ---------- */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Times New Roman', Georgia, "Times New Roman", serif;
+	font-size: 10px;
+	color: #595959;
+	background: #2d3b4a;
+}
+#wrapper {
+	width: 100%;
+	padding-bottom: 80px;
+	
+background-image:url('../dl.dropboxusercontent.com/u/21031152/vribsite%20images/background04halfhalfnormal.jpg_%3B%20filename_=UTF-8''background04halfhalfnormal.jpg');
+*background: #e3e3e3;*
+
+	zoom: 1;
+}
+#wrapper:after {
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	content: ".";
+}
+#container {
+	margin: 0px auto;
+	width: 1000px;
+	position: relative;
+}
+#primary { width: 750px; float: left; }
+hr { display: none; }
+input, option, textarea, button {
+	font-family: 'Times New Roman', Georgia, "Times New Roman", serif;
+	font-size: 10px;
+}
+ul, ol { list-style-type: none; }
+q:before, q:after { content: ""; }
+big { font-size: 12px; }
+small { font-size: 8px; }
+img, iframe { border: none; }
+a { color: #595959; text-decoration: none; }
+a:hover { color: #18304a; }
+/* ---------- HEADER ---------- */
+#header {
+	padding: 70px 50px 0px 0px;
+	width: 750px;
+}
+	#header #site_name h1 {
+		font-family: 'Times New Roman', Georgia, "Times New Roman", serif;
+		font-size: 40px;
+		font-weight: normal;
+		line-height: 100%;
+		text-transform: uppercase;
+	}
+	#header #site_name h1 img { max-width: 800px; display: block; }
+	#header #site_nav {
+		padding: 30px 0px 0px 0px;
+	}
+		#header #site_nav ul {
+			margin-left: -50px;
+			position: relative;
+		}
+		#header #site_nav li {
+			margin-left: 50px;
+			width: 150px;
+			float: left;
+		}
+		#header #site_nav li.section ul li { margin: 0px; float: none; }
+		#header #site_nav li.section ul { display: block !important; margin: 0px; padding-top: 0px; border-top: 1px solid #2d3b4a; }
+			/* Nav: Section */
+			#header #site_nav li.section span.section_name {
+				display: block;
+				font-family: 'Times New Roman', Georgia, "Times New Roman", serif;
+				font-size: 14px;
+				line-height: 30px;
+				font-style: italic;
+				color: #18304a;
+			}
+			/* Nav: Pages */
+			#header #site_nav li.page {
+				font-family: 'Times New Roman', Georgia, "Times New Roman", serif;
+				font-size: 12px;
+				line-height: 125%;
+				text-transform: uppercase;
+				letter-spacing: .5px;
+			}
+			#header #site_nav li.page a {
+				display: block;
+				margin: 0px 0px 0px -10px;
+				padding: 8px 10px 6px 10px;
+				color: #595959;
+			}
+			#header #site_nav li.page a:hover,
+			#header #site_nav li.page.active a { color: #18304a; background: #ffffff; }
+			#header #site_nav li.page.link a:after { content: " \2192"; display:none; }
+/* ---------- PAGE ---------- */
+#page {
+position: relative; top: 50px;
+	padding: 0px 0px 0px 0px; 
+margin: 0px 0px 50px 0px;
+	width: 750px;
+
+
+-moz-box-shadow: 0 0 10px #888;
+-webkit-box-shadow: 0 0 10px#888;
+box-shadow: 0 0 10px #888;
+
+	font-size: 14px;
+	line-height: 150%;
+	clear: both;
+	overflow: hidden;
+}
+	#page #title h2 {
+		padding-bottom: 10px;
+		font-family: 'Times New Roman', Georgia, "Times New Roman", serif;
+		font-size: 20px;
+		line-height: 100%;
+		font-weight: normal;
+		border-bottom: 1px solid #2d3b4a;
+	}
+	#page img, #page object, #page embed { max-width: 100%; }
+	#page img { height: auto; }
+	#page #description h1,
+	#page #description h2,
+	#page #description h3,
+	#page #description h4,
+	#page #description h5,
+	#page #description h6 { font-weight: normal; line-height: 125%; margin: 40px 0px 20px 0px; }
+	#page #description h1 { font-size: 30px; }
+	#page #description h2 { font-size: 28px; }
+	#page #description h3 { font-size: 26px; }
+	#page #description h4 { font-size: 24px; }
+	#page #description h5 { font-size: 22px; }
+	#page #description h6 { font-size: 20px; }
+	#page #description hr { display: block; margin: 40px 0px 40px 0px; height: 0px; border-bottom: none; border-top: 1px solid #2d3b4a; }
+	#page #description p,
+	#page #description ul,
+	#page #description ol,
+	#page #description dl,
+	#page #description blockquote,
+	#page #description address,
+	#page #description table { margin: 20px 0px 20px 0px; }
+		#page #description ul, #page #description ol { margin: 40px 0px 40px 0px; }
+		#page #description li { margin: 10px 0px 10px 20px; padding: 0px 10px 0px 10px; }
+		#page #description ul li { list-style-type: circle; }
+		#page #description ol li { list-style-type: decimal; }
+		#page #description blockquote { margin: 40px 0px 40px 0px; padding: 30px; background: #ffffff; }
+	#page #share {
+		clear: both;
+		margin: 80px 0px 0px 0px;
+		padding: 20px 0px 0px 0px;
+		height: 20px;
+		border-top: 1px solid #2d3b4a;
+	}
+	/* ---------- PAGE: PASSWORD ---------- */
+	body.collection.horizontal #password { height: 400px; background: #2d3b4a; }
+	body.collection.horizontal #password #title { display: none; }
+	body.collection.horizontal #password #description { padding: 150px; }
+	#password input { font-size: 14px; border: none; color: #595959; }
+	#password input#password { margin-right: 10px; padding: 5px; width: 300px; height: 30px; vertical-align: middle; background: #ffffff; }
+	#password input#submit { width: 100px; height: 40px; text-align: center; vertical-align: middle; background: #ffffff; }
+	/* ---------- PAGE: CUSTOM ---------- */
+	#custom #description { padding-top: 10px;}
+#custom {background-color: white;}
+#custom #title {position: relative; padding-top: 10px;}
+#custom {padding:20px;}
+	/* ---------- PAGE: EVENTS ---------- */
+	#events #description { padding-top: 0px; }
+	/* ---------- PAGE: INDEX ---------- */
+	body.index #page { padding-top: 0px; }
+	#index #title { display: block; }
+#index {padding:20px;}
+#index {background-color: white;}
+	#index #description { margin-top: 0px; }
+	#index ul.thumbs {
+		margin: 20px 0px 0px -15px;
+		zoom: 1;
+	}
+	#index ul.thumbs:after {
+		display: block;
+		visibility: hidden;
+		clear: both;
+		height: 0;
+		line-height: 0;
+		content: ".";
+	}
+		#index ul.thumbs li {
+			float: left;
+			margin: 0px 0px 15px 15px;
+			overflow: hidden;
+			background: #ffffff;
+			position: relative;
+		}
+		#index ul.thumbs li.square p a { width: 226px; height: 226px; }
+		#index ul.thumbs li.rectangle p a { width: 240px; height: 180px; }
+		#index ul.thumbs li.widescreen p a { width: 240px; height: 135px; }
+		#index ul.thumbs li p a { display: block; width: 240px; height: 240px; }
+		#index .thumbs li p a img { display: block; max-width: 100%; }
+		#index ul.thumbs li h3 { position: absolute; bottom: 0px; width: 100%; }
+		#index ul.thumbs li h3 a {
+			display: block;
+			padding: 8px 0px 8px 0px;
+			font-family: 'Times New Roman', Georgia, "Times New Roman", serif;
+			font-size: 14px;
+			line-height: 100%;
+			font-weight: normal;
+			font-style: italic;
+			text-align: center;
+			color: #595959;
+			background: #e3e3e3;
+			opacity:0.75;
+			filter:alpha(opacity=75);
+		}
+	/* ---------- PAGE: ALBUM ---------- */
+	#album { position: relative; }
+#album {padding:20px;}
+#album {background-color: white;}
+	#album #art img { position: absolute; width: 200px; margin-top: 60px; }	
+#album #media { min-height: 180px; margin: 60px 0px 60px 240px; }
+	#album #media ol li, #blog .entry.audio li {
+		margin-bottom: -1px;
+		padding: 15px;
+		font-size: 10px;
+		line-height: 20px;
+		list-style-type: decimal-leading-zero;
+		*list-style-type: decimal;
+		list-style-position: inside;
+		color: #18304a;
+		border-top: 1px solid #2d3b4a;
+		border-bottom: 1px solid #2d3b4a;
+		position: relative;
+	}
+	#blog .entry.audio li { margin: 0px; list-style-type: none; border: none; }
+		/* Audio Player */
+		#album #media li .album_image, #blog .entry.audio li .album_image { display: none; }
+		#album #media li .controls, #blog .entry.audio li .controls { display: none; }
+		#album #media li h4, #blog .entry.audio li h4 { display: none; }
+		#album #media li h3 { display: inline; font-size: 14px; line-height: 20px; font-weight: normal; position: relative; z-index: 5; }
+		#blog .entry.audio li h3 { display: inline; font-weight: normal; position: relative; z-index: 5; }
+		#album #media li.playing h3 a, #blog .entry.audio li.playing h3 a { color: #18304a; }
+		#album #media li h3 a.tracktitle:before, #blog .entry.audio li h3 a.tracktitle:before { content: "  ♫   "; }
+		#album #media li h3 .download a, #blog .entry.audio li h3 .download a {
+			margin-left: 8px;
+			font-size: 10px;
+			font-weight: normal;
+			text-transform: uppercase;
+			opacity:0.50;
+			filter:alpha(opacity=50);
+		}
+		/* Track Length */
+		#album #media li .length, #blog .entry.audio li .length {
+			z-index: 0;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			height: 50px;
+			overflow: hidden;
+		}
+		#blog .entry.audio li .length { height: 55px; background: #ffffff; }
+			#album #media li .load, #blog .entry.audio li .load {
+				z-index: 1;
+				position: absolute;
+				display: block;
+				height: 100%;
+				width: 0px;
+				background: #ffffff;
+			}
+			#blog .entry.audio li .load {
+				background: #2d3b4a;
+				opacity:0.5;
+				filter:alpha(opacity=50);
+			}
+			#album #media li .progress, #blog .entry.audio li .progress {
+				z-index: 2;
+				position: absolute;
+				display: block;
+				height: 100%;
+				width: 0px;
+				background: #2d3b4a;
+			}
+			#album #media li .time, #blog .entry.audio li .time {
+				z-index: 3;
+				position: absolute;
+				top: 15px;
+				right: 15px;
+			}
+			#blog .entry.audio li .time { top: 18px; }
+			#album #media li .time, #blog .entry.audio li .time { visibility: hidden; }
+			#album #media li.loading .time, #blog .entry.audio li.loading .time { visibility: visible; }
+			#album #media li.loaded .time, #blog .entry.audio li.loaded .time { visibility: visible; }
+	/* ---------- PAGE: BLOG ---------- */
+	#blog { }
+	#blog #title { }
+#blog {background-color: white;}
+#blog {padding:20px;}
+	#blog #description { display: none; }
+		/* Blog Nav */
+		#blog #nav {
+			display: none;
+			padding: 15px 20px 15px 20px;
+			height: 20px;
+			background: #ffffff;
+		}
+		#blog #nav ul li {
+			padding-right: 20px;
+			margin-right: 20px;
+			font-size: 10px;
+			line-height: 20px;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			float: left;
+			border-right: 1px solid #2d3b4a;
+		}
+		#blog #nav ul li.bottom { border: none; }
+		#blog #nav ul li a { color: #18304a; }
+		#blog #nav ul li a:hover, #tumblelog #nav ul li.active a { color: #595959; }
+		/* Blog Dates */
+		#blog .date_group { position: relative; }
+		#blog .date {
+			font-family: 'Times New Roman', Georgia, "Times New Roman", serif;
+			font-size: 15px;
+			text-transform: uppercase;
+			position: absolute;
+			top: 20px;
+			right: 0px;
+		}
+			#blog .date .divider #blog .date .year { display: block; }
+		/* Blog Entries */
+		#blog .entry {
+			padding: 60px 0px 60px 0px;
+			border-bottom: 1px solid #2d3b4a;
+		}
+			/* All Entries */
+			#blog .entry * { max-width: 640px; }
+			#blog .entry h3 { font-size: 20px; line-height: 25px; font-weight: normal; }
+			#blog .entry p.photo,
+			#blog .entry p.video { margin-bottom: 20px; }
+			/* Entry Descriptions */
+			#blog .entry .description h1,
+			#blog .entry .description h2,
+			#blog .entry .description h3,
+			#blog .entry .description h4,
+			#blog .entry .description h5,
+			#blog .entry .description h6 { font-weight: normal; line-height: 125%; margin: 40px 0px 20px 0px; }
+			#blog .entry .description h1 { font-size: 30px; }
+			#blog .entry .description h2 { font-size: 28px; }
+			#blog .entry .description h3 { font-size: 26px; }
+			#blog .entry .description h4 { font-size: 24px; }
+			#blog .entry .description h5 { font-size: 22px; }
+			#blog .entry .description h6 { font-size: 20px; }
+			#blog .entry .description hr { display: block; margin: 40px 0px 40px 0px; height: 0px; border-bottom: none; border-top: 1px solid #2d3b4a; }
+			#blog .entry .description p,
+			#blog .entry .description ul,
+			#blog .entry .description ol,
+			#blog .entry .description dl,
+			#blog .entry .description blockquote,
+			#blog .entry .description address,
+			#blog .entry .description table { margin: 20px 0px 20px 0px; }
+				#blog .entry .description ul, #blog .entry .description ol { margin: 40px 0px 40px 0px; }
+				#blog .entry .description li { margin: 10px 0px 10px 20px; padding: 0px 10px 0px 10px; }
+				#blog .entry .description ul li { list-style-type: circle; }
+				#blog .entry .description ol li { list-style-type: decimal; }
+				#blog .entry .description blockquote { margin: 40px 0px 40px 0px; padding: 10px 30px 10px 30px; background: #ffffff; }
+			/* Text */
+			/* Quotes */
+			#blog .entry.quotes { padding-left: 30px; position: relative; }
+			#blog .entry.quotes h3 .quotation { position: absolute; top: 60px; left: 0px; font-size: 36px; }
+			#blog .entry.quotes p.source { padding: 10px 0px 0px 0px; font-size: 12px; line-height: 15px; color: #18304a; }
+			#blog .entry.quotes a { text-decoration: none; }
+			/* Links */
+			#blog .entry.links h3 a:after { content: " \2192"; }
+			/* Photos */
+			#blog .entry.photos cite {
+				display: block;
+				font-size: 10px;
+				font-style: normal;
+				letter-spacing: .5px;
+				text-transform: uppercase;
+				color: #18304a;
+			}
+			#blog .entry.photos cite a { color: #18304a; }
+			#blog .entry.photos cite a:hover { color: #595959; }
+			/* Videos */
+			/* Audio */
+		/* Blog Paging */
+		#blog #paging {
+			padding: 60px 0px 0px 0px;
+			font-family: 'Times New Roman', Georgia, "Times New Roman", serif;
+			font-size: 12px;
+			line-height: 15px;
+			font-style: italic;
+		}
+			#blog #paging .newer { float: left; }
+			#blog #paging .older { float: right; }
+			#blog #paging .arrow { display: none; }
+			#blog #paging .divider { display: none; }
+		/* Blog Comments */
+		#blog .entry p.comments { margin: 20px 0px 0px 0px; font-size: 10px; text-transform: uppercase; }
+		#blog #comments {
+			margin-top: -1px;
+			padding: 20px;
+			background: #ffffff;
+			position: relative;
+			z-index: 111;
+		}
+			#blog #comments a.dsq-brlink {
+				display: block;
+				margin-bottom: 15px;
+				padding-bottom: 15px;
+				font-size: 10px;
+				line-height: 20px;
+				letter-spacing: 1px;
+				text-transform: uppercase;
+				color: #18304a;
+				border-bottom: 1px solid #2d3b4a;
+			}
+	/* ---------- PAGE: COLLECTION ---------- */
+		/* Slideshow Nav */
+		#collection #media p.slideshow_nav {
+			padding: 15px 20px 15px 20px;
+			height: 20px;
+			background: #ffffff;
+		}
+		#collection #media p.slideshow_nav span.divider { display: none; }
+		#collection #media p.slideshow_nav span.prev,
+		#collection #media p.slideshow_nav span.next,
+		#collection #media p.slideshow_nav span.count {
+			padding-right: 20px;
+			margin-right: 20px;
+			font-size: 10px;
+			line-height: 20px;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			float: left;
+			border-right: 1px solid #2d3b4a;
+		}
+		#collection #media p.slideshow_nav span.count { border: none; color: #18304a; }
+		#collection #media p.slideshow_nav span a { color: #18304a; }
+		#collection #media p.slideshow_nav span a:hover { color: #595959; }
+		/* Entry */
+		#collection #media .entry {
+			padding: 0px 0px 0px 0px;
+			border-top: 1px solid #2d3b4a;
+		}
+		body.collection.slideshow #collection #media .entry { border: none; }
+		#collection #media .entry h3 {
+			margin: 30px 0px 0px 0px;
+			width: 100%;
+			font-size: 20px;
+			line-height: 25px;
+			font-weight: normal;
+		}
+		#collection #media .entry p.description { margin-top: 30px; width: 100%; }
+		#collection #media .entry img,
+		#collection #media .entry embed,
+		#collection #media .entry object { max-width: 100%; display: block; }
+		/* Horizontal Collection */
+		body.collection.horizontal #wrapper { position: relative; padding-top: 400px; }
+		body.collection.horizontal #container { position: static; }
+		body.collection.horizontal #primary { float: none; }
+		body.collection.horizontal #sidebar { display: none; }
+		body.collection.horizontal #header { margin-top: 15px; } /* to account for the scrollbar height */
+		body.collection.horizontal #page {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			margin: 0px;
+			padding: 0px 0px 40px 0px;
+			width: 640px;
+			overflow: hidden;
+		}
+			body.collection.horizontal #page #share {
+				position: absolute;
+				right: 10px;
+				bottom: 10px;
+				margin: 0px;
+				padding: 0px;
+				border: none;
+			}
+			body.collection.horizontal #collection #media table { position: relative; }
+			body.collection.horizontal #collection #title { display: none; }
+			body.collection.horizontal #collection #description { display: none; }
+			/* Slider */
+			body.collection.horizontal #slider {
+				position: relative;
+				display: block;
+				width: 640px;
+				height: 15px;
+				background: #d4d4d4;
+			}
+			body.collection.horizontal #slider .slider-track-x {
+				display: block;
+				margin: 0px auto;
+				width: 1000px;
+				height: 15px;
+			}
+			body.collection.horizontal #slider #handle {
+				height: 15px;
+				cursor: move;
+				background: #a6a6a6;
+			}
+			/* Entry */
+			body.collection.horizontal #collection #media { margin: 0px; }
+			body.collection.horizontal #collection #media td { vertical-align: top; }
+			body.collection.horizontal #collection #media .entry {
+				margin-right: -1px;
+				padding: 0px;
+				border: none;
+				position: relative;
+			}
+			body.collection.horizontal #collection #media .entry .details { visibility: hidden; }
+			body.collection.horizontal #collection #media .entry:hover .details { visibility: visible; }
+			body.collection.horizontal #collection #media .entry .details {
+				position: absolute;
+				top: 80px;
+				left: 0px;
+				background: #e3e3e3;
+				opacity:0.65;
+				filter:alpha(opacity=65);
+			}
+			body.collection.horizontal #collection #media .entry .details h3 {
+				margin: 15px 20px 15px 20px;
+				width: 160px;
+				font-family: 'Times New Roman', Georgia, "Times New Roman", serif;
+				font-size: 12px;
+				line-height: 20px;
+				font-style: italic;
+				color: #595959;
+			}
+			body.collection.horizontal #collection #media .entry .details p.description {
+				margin: 15px 20px 15px 20px;
+				width: 160px;
+				font-family: 'Times New Roman', Georgia, "Times New Roman", serif;
+				font-size: 10px;
+				line-height: 15px;
+				font-style: italic;
+				color: #595959;
+			}
+			body.collection.horizontal #collection #media .entry img { max-width: 1280px; height: 400px; }
+			body.collection.horizontal #collection #media .entry embed,
+			body.collection.horizontal #collection #media .entry object { max-width: 1280px; }
+/* ---------- SIDEBAR ---------- */
+#sidebar {
+	padding: 80px 0px 0px 0px;
+	width: 150px;
+	float: right;
+}
+	#sidebar .module {
+		padding: 0px 0px 60px 0px;
+		font-size: 11px;
+		line-height: 150%;
+	}
+	#sidebar .module h4.title {
+		margin: 0px 0px 10px 0px;
+		font-family: 'Times New Roman', Georgia, "Times New Roman", serif;
+		font-size: 14px;
+		line-height: 125%;
+		font-weight: normal;
+		font-style: italic;
+		color: #18304a;
+	}
+	#sidebar .module h4.title a { color: #18304a; }
+	#sidebar .description h1,
+	#sidebar .description h2,
+	#sidebar .description h3,
+	#sidebar .description h4,
+	#sidebar .description h5,
+	#sidebar .description h6 { font-weight: normal; line-height: 125%; margin: 20px 0px 10px 0px; }
+	#sidebar .description h1 { font-size: 20px; }
+	#sidebar .description h2 { font-size: 18px; }
+	#sidebar .description h3 { font-size: 16px; }
+	#sidebar .description h4 { font-size: 14px; }
+	#sidebar .description h5 { font-size: 12px; }
+	#sidebar .description h6 { font-size: 10px; }
+	#sidebar .description hr { display: block; margin: 20px 0px 20px 0px; height: 0px; border-bottom: none; border-top: 1px solid #2d3b4a; }
+	#sidebar .description p,
+	#sidebar .description ul,
+	#sidebar .description ol,
+	#sidebar .description dl,
+	#sidebar .description blockquote,
+	#sidebar .description address,
+	#sidebar .description table { margin: 10px 0px 10px 0px; }
+		#sidebar .description ul, #sidebar .description ol { margin: 20px 0px 20px 0px; }
+		#sidebar .description li { margin: 10px 0px 10px 15px; padding: 0px 5px 0px 5px; }
+		#sidebar .description ul li { list-style-type: circle; }
+		#sidebar .description ol li { list-style-type: decimal; }
+		#sidebar .description blockquote { margin: 20px 0px 20px 0px; padding: 20px; background: #ffffff; }
+	/* Audio Player Module */
+	#sidebar .module.audio_player li { display: none; position: relative; }
+	#sidebar .module.audio_player li.selected { display: block; }
+	#sidebar .module.audio_player li .download { display: none; }
+	/* Audio Player Controls */
+	#sidebar .module.audio_player li .controls {
+		position: absolute;
+		z-index: 3;
+		top: 155px;
+		left: 0px;
+		display: block;
+		width: 60px;
+		height: 10px;
+		font-size: 10px;
+		line-height: 10px;
+		text-transform: lowercase;
+	}
+	#sidebar .module.audio_player li .controls a { color: #18304a; }
+	#sidebar .module.audio_player li .playpause { display: none; }
+	#sidebar .module.audio_player li .prev { margin-right: 3px; }
+	#sidebar .module.audio_player li .arrow.left { margin-right: 2px; }
+	#sidebar .module.audio_player li .arrow.right { margin-left: 2px; }
+	/* Audio Player Titles */
+	#sidebar .module.audio_player li h3 { margin: 30px 0px 0px 0px; font-size: 12px; font-weight: normal; }
+	#sidebar .module.audio_player li h4 { margin: 0px 0px 10px 0px; font-size: 10px; font-weight: normal; }
+	/* Audio Player Length */
+	#sidebar .module.audio_player li .time { display: none; }
+	#sidebar .module.audio_player li .length {
+		position: absolute;
+		z-index: 0;
+		top: 155px;
+		left: 65px;
+		display: block;
+		width: 85px;
+		height: 10px;
+		overflow: hidden;
+	}
+	#sidebar .module.audio_player li .load {
+		display: block;
+		width: 0px;
+		height: 10px;
+		position: absolute;
+		z-index: 1;
+		background: #ffffff;
+	}
+	#sidebar .module.audio_player li .progress {
+		display: block;
+		width: 0px;
+		height: 10px;
+		position: absolute;
+		z-index: 2;
+		background: #2d3b4a;
+	}
+	/* Twitter & Last.fm Modules */
+	#sidebar .module.twitter li,
+	#sidebar .module.lastfm li { margin: 15px 0px 15px 0px; }
+	#sidebar .module.lastfm li img { margin-right: 5px; height: 16px; }
+/* ---------- FOOTER ---------- */
+#footer {
+	clear: both;
+	margin: 0px auto;
+	padding: 20px 0px 20px 0px;
+	width: 1000px;
+	font-size: 12px;
+	line-height: 15px;
+	c-o-l-or: #18304a;
+color: white;
+}
+
+
+#index ul.thumbs li.square p a {
+width: 226px;
+height: 226px;
+}
+#index ul.thumbs li h3 {position: relative; bottom: auto;}
+#container {padding: 0 10px;}
